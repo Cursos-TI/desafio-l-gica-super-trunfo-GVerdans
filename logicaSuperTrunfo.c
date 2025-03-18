@@ -8,6 +8,9 @@ int main()
     float areaCidade1, PIB1, densiPop1, PIBPC1, superPoder1, inversoDensidade1;
     unsigned long int populacao1;
     
+    printf("######################################\n");
+    printf("||      SUPER TRUNFO - PAÍSES       ||\n");
+    printf("######################################\n\n");
     
     // ENTRADA DE DADOS DA CARTA 1
     
@@ -120,7 +123,7 @@ int main()
     printf("######################################\n");
     
     int opcaoMenu;
-    scanf("%d\n\n", &opcaoMenu);
+    scanf("%d", &opcaoMenu);
     
 
     // INICIO DAS COMPARAÇÕES
