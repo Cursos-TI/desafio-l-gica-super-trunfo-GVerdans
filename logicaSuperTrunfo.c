@@ -122,18 +122,18 @@ int main()
     printf("||      Digite sua escolha:         ||\n");
     printf("######################################\n");
     
-    int opcaoMenu;
-    scanf("%d", &opcaoMenu);
+    int opcaoMenu1;
+    scanf("%d", &opcaoMenu1);
     
 
     // INICIO DAS COMPARAÇÕES
 
-    switch (opcaoMenu){
+    switch (opcaoMenu1){
 
         case 1:
         printf("Opção Escolhida: População.\n");
         
-            if(populacao1 == populacao2){
+            if (populacao1 == populacao2){
                 printf("Nome do País: %s\n", nomeDaCidade1);
                 printf("População da Carta 1: %ld \n\n", populacao1);
                 printf("Nome do País: %s\n", nomeDaCidade2);
@@ -159,7 +159,7 @@ int main()
         case 2:
             printf("Opção Escolhida: PIB.\n");
         
-            if(PIB1 == PIB2){
+            if (PIB1 == PIB2){
                 printf("Nome do País: %s\n", nomeDaCidade1);
                 printf("PIB da Carta 1: %.2f \n\n", PIB1);
                 printf("Nome do País: %s\n", nomeDaCidade2);
@@ -185,7 +185,7 @@ int main()
         case 3:
             printf("Opção Escolhida: Área.\n");
         
-            if(areaCidade1 == areaCidade2){
+            if (areaCidade1 == areaCidade2){
                 printf("Nome do País: %s\n", nomeDaCidade1);
                 printf("Área da Carta 1: %.2f\n\n", areaCidade1);
                 printf("Nome do País: %s\n", nomeDaCidade2);
@@ -211,7 +211,7 @@ int main()
         case 4:
             printf("Opção Escolhida: Número de Pontos Turísticos.\n");
         
-            if(numPontosTuristicos1 == numPontosTuristicos2){
+            if (numPontosTuristicos1 == numPontosTuristicos2){
                 printf("Nome do País: %s\n\n", nomeDaCidade1);
                 printf("Pontos Turísticos da Carta 1: %d\n", numPontosTuristicos1);
                 printf("Nome do País: %s\n\n", nomeDaCidade2);
@@ -237,7 +237,7 @@ int main()
         case 5:
             printf("Opção Escolhida: Densidade Demográfica.\n");
         
-            if(inversoDensidade1 == inversoDensidade2){
+            if (densiPop1 == densiPop2){
                 printf("Nome do País: %s\n\n", nomeDaCidade1);
                 printf("Densidade Demográfica da Carta 1: %.2f\n", densiPop1);
                 printf("Nome do País: %s\n\n", nomeDaCidade2);
@@ -265,19 +265,5 @@ int main()
         break;
     }
         
-    // printf("Carta 1 - %s (%s): %ld \n\n", nomeDaCidade1, estado1, populacao1);
-    // printf("Carta 2 - %s (%s): %ld \n\n", nomeDaCidade2, estado2, populacao2);
-
-    // printf("==============\n");
-    // printf("|| RESULTADO ||\n");
-    // printf("==============\n\n");
-
-    // if (populacao1 > populacao2){
-    //     printf("População: Carta 1 Win!\n\n");
-    // } else {
-    //     printf("População: Carta 2 Win!\n\n");
-    // }
-    
-
     return 0;
 }
